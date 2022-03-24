@@ -6,7 +6,6 @@ class AppTheme {
         brightness: Brightness.dark,
       );
   // Light Theme
-  static get lightTheme => ThemeData(
-        brightness: Brightness.light,
-      );
+  static get lightTheme =>
+      ThemeData(brightness: Brightness.light, fontFamily: 'Montserrat');
 }

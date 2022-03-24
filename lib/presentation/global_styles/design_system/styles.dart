@@ -18,5 +18,5 @@ const darkAzul = Color(0xff3867d6);
 const purple = Color(0xffa55eea);
 const darkPurple = Color(0xff8854d0);
 
+const black = Color(0xff323232);
 // FONTS
-
