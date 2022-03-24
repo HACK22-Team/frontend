@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hack_22/presentation/pages/chat_page.dart';
 import 'package:hack_22/presentation/pages/home_page.dart';
 
 import 'presentation/global_styles/themes/global_theme.dart';
@@ -14,10 +15,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Hack2022',
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
-      home: const HomePage(),
+      home: ChatPage(),
     );
   }
 }

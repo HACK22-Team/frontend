@@ -8,13 +8,17 @@ class SquareCard extends StatelessWidget {
     return Container(
       height: 24,
       width: 24,
-      decoration: BoxDecoration(color: Colors.white, boxShadow: [
-        BoxShadow(
-          color: Colors.black.withOpacity(0.08),
-          offset: Offset(0, 1.0),
-          blurRadius: 12.0,
-        ),child: Image.asset
-      ]),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(0.08),
+            offset: Offset(0, 1.0),
+            blurRadius: 12.0,
+          ),
+        ],
+      ),
+      //child: Image.asset(),
     );
   }
 }
