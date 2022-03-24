@@ -19,4 +19,9 @@ const purple = Color(0xffa55eea);
 const darkPurple = Color(0xff8854d0);
 
 const black = Color(0xff323232);
+const gray = Color(0xffC6C6C6);
+
 // FONTS
+
+final TextStyle subsectionHeading =
+    TextStyle(fontSize: 24, fontWeight: FontWeight.w700, color: gray);

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class name extends StatelessWidget {
-  const name({Key? key, required this.size}) : super(key: key);
+class LogoMap extends StatelessWidget {
+  const LogoMap({Key? key, required this.size}) : super(key: key);
   final double size;
 
   @override
