@@ -36,6 +36,8 @@ dependencies:
   auto_route: ^3.2.4
   flutter_bloc: ^8.0.1
   equatable: ^2.0.3
+  persistent_bottom_nav_bar: ^4.0.2
+  geolocator: ^8.2.0
 
 dev_dependencies:
   flutter_test:
@@ -79,10 +81,17 @@ flutter:
   fonts:
     - family: Montserrat
       fonts:
+        - asset: assets/fonts/Montserrat-Italic.ttf
         - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat-MediumItalic.ttf
         - asset: assets/fonts/Montserrat-Medium.ttf
+        - asset: assets/fonts/Montserrat-SemiBoldItalic.ttf
         - asset: assets/fonts/Montserrat-SemiBold.ttf
         - asset: assets/fonts/Montserrat-Bold.ttf
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

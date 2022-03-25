@@ -19,7 +19,8 @@ const purple = Color(0xffa55eea);
 const darkPurple = Color(0xff8854d0);
 
 const black = Color(0xff323232);
-const gray = Color(0xffC6C6C6);
+const gray = Color.fromARGB(255, 142, 142, 156);
+const lightGray = Color(0xffCBCBCB);
 
 // FONTS
 
